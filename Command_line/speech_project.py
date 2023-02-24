@@ -23,7 +23,7 @@ engine.setProperty('rate', 200)
 voice = engine.getProperty('voices')  # getting details of current voice
 # for v in voice:
 #     print(v.name)
-engine.setProperty('voice', voice[2].id)
+engine.setProperty('voice', voice[1].id)
 
 
 def speak(audio):
